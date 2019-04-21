@@ -1,0 +1,34 @@
+Previous knowledge: SQL Database basics, Visual Studio
+
+Gained Knowledge: MVC, some limited EF6 understanding, Action Results with MVC, various new HTML tags
+
+Forward: Practice more with EF6 (code-first)
+
+Back-Up Version History:
+	Pre-DB 1	
+	Post-DB 1 	(Pre-EF6)
+	Post-DB 2 	(Attempting to implement EF6)
+
+------------------------
+
+1) MVC - Front-End, data presentation
+
+2) SQL Database - User, Project, UserProject
+
+3) JQuery - Link MVC and Database, save and query data
+
+------------------------
+
+Misc. Notes
+
+- Trying to open the project directly from the project folder resulted in a ChallengeDB.mdf 'upgrade/version' error, but opening the project by opening VS2013 on its own did not give the error
+
+- Searching and using EF6 tutorials gave mixed results, and no one tutorial was contextually consistent with my needs, resulting in consistent errors and roadblocks, particularly when dealing with the Package Console Manager line commands
+
+- Attempting to use SMSS did not yield any results as I could not find any suitable means to connect to a DB to use it, so I decided to use what I knew and made my DB, tables, and data inside of VS itself
+
+- Using the MVC App template and launching a localhost page that I could control was satisfying
+
+- Working with others would greatly speed up the initial learning process and handle the challenges with entities such as EF6
+
+- Due to the nature of some apparently conflicting tutorials, blocks of code have been commented off in case of future need; not as clean as I'd like it to be, but documented at any rate
